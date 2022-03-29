@@ -1,12 +1,12 @@
 variable "aws-region" {
     default = "us-east-1"
-    dedescription = "this is the default us-est-1 region"  
+    description = "this is the default us-est-1 region"  
 }
 
 variable "bucket_prefix" {
     type = string
     default = "s3-bucket-"
-    dedescription = "by using bucket prifix it can create its own default name "
+    description = "by using bucket prifix it can create its own default name "
    
 }
 
